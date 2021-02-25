@@ -44,7 +44,7 @@ public class TestStack {
 				System.out.println("추출 실패, 스택이 비어있음");
 				return 0;
 			} else {
-	            System.out.println("Peeked Item : " + stackArr[top]);
+	            System.out.println("Peek Data : " + stackArr[top]);
 	            return stackArr[top];
 			}
 		}
